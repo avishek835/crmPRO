@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="crmProHomePageTest.LoginandDashboardValidation">
+      <class name="allTestCase.LoginandDashboardValidation">
         <methods>
           <include name="quitBrowser"/>
           <include name="setupBrowser"/>
-          <include name="login" invocation-numbers="0"/>
+          <include name="hoverOnCompannies"/>
           <include name="getURL"/>
         </methods>
-      </class> <!-- crmProHomePageTest.LoginandDashboardValidation -->
+      </class> <!-- allTestCase.LoginandDashboardValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

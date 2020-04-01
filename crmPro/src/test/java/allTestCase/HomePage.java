@@ -17,16 +17,14 @@ public class HomePage extends BaseFile {
 
 	@Test
 	public void getAllLinks() {
-		List<WebElement> links = driver.findElements(By.tagName("a"));
+		List<WebElement> getAllLinks = driver.findElements(By.tagName("a"));
 
-		System.out.println(links.size());
+		System.out.println(getAllLinks.size());
 
-		for (int i = 1; i <= links.size(); i = i + 1)
+		for (WebElement links : getAllLinks)
 
 		{
-
-			System.out.println(links.get(i).getText());
-			System.out.println(links.get(i));
+			System.out.println(links.getText() + " - " + links.getAttribute("href"));
 
 		}
 	}
