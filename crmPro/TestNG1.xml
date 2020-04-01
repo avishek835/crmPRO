@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CRMPROPRACTISE"  >
+		
+	<test name="testCase1" >
+		
+	<classes>
+		<class name="crmProHomePageTest.HomePage"/>
+		
+	</classes>
+	</test>
+	
+	
+	
+</suite>
