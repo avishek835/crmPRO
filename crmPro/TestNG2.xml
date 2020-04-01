@@ -5,7 +5,7 @@
 		<parameter name = "password" value="Krishna@835@"/>
 	<classes>
 		
-		<class name="crmProHomePageTest.LoginandDashboardValidation"/>
+		<class name="allTestCase.LoginandDashboardValidation"/>
 	</classes>
 	</test>	
 	

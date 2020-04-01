@@ -4,8 +4,7 @@
 	<test name="testCase1" >
 		
 	<classes>
-		<class name="crmProHomePageTest.HomePage"/>
-		
+		<class name="allTestCase.HomePage"/>
 	</classes>
 	</test>
 	
