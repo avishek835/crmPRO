@@ -35,6 +35,7 @@ public class LoginandDashboardValidation extends BaseFile{
 	
 	
 	
+	@SuppressWarnings("deprecation")
 	@Test
 	public void hoverOnCompannies()
 	{
